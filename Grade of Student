@@ -1,0 +1,29 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+       double percen=sc.nextDouble();
+       int grade=(int)(percen/10);
+       switch(grade){
+           case 10:
+               System.out.println("s");
+                  break;
+                case 9:
+               System.out.println("A");
+               break;
+                case 8:
+               System.out.println("B");
+                  break;
+                case 7:
+               System.out.println("C");
+                  break;
+                case 6:
+               System.out.println("F");
+                  break;
+               default:
+               System.out.println("fail");
+                  break;
+       }
+    }
+}
+
